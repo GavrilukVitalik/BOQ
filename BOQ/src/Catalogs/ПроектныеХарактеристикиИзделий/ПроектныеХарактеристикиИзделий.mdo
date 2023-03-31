@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9a80713-19a4-4f60-b4c0-2de4ce8fc680">
+  <producedTypes>
+    <objectType typeId="32f31fef-c92f-40a1-a752-438327078935" valueTypeId="2cd1a36b-cb59-45f3-a174-2828b4f115d8"/>
+    <refType typeId="49d8f3a0-999c-4f22-a0fd-0becd29eeff2" valueTypeId="6ddcef5f-945d-4d6f-b436-bedd0b29142e"/>
+    <selectionType typeId="6db33a8a-8980-4be4-85d4-b28ae37c936f" valueTypeId="dcbf91b3-7d8c-4646-bad6-a7b5ab37c017"/>
+    <listType typeId="1dabbccc-368a-40ca-9361-9866b23b1820" valueTypeId="b4120eba-5f36-4d2e-89ed-27e425215e97"/>
+    <managerType typeId="e20e9787-be08-4413-bbd0-d2420000ca76" valueTypeId="bf6990f1-5e55-48b4-abb5-42cccc8969d7"/>
+  </producedTypes>
+  <name>ПроектныеХарактеристикиИзделий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проектные характеристики изделий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПроектныеХарактеристикиИзделий.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПроектныеХарактеристикиИзделий.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ПроектныеХарактеристикиИзделий.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="f5f497a2-94fc-437b-830b-35507d85ad49">
+    <name>ЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЕдиницыИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="ab750dae-2693-45d8-bec6-2468241a0b10">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

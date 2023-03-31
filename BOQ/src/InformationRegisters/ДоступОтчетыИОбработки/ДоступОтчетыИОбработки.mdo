@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d25bff11-762c-4dee-a772-1e50d5c91b1a">
+  <producedTypes>
+    <selectionType typeId="1ed24ed0-2956-4240-b093-e76e0918698b" valueTypeId="d3be0dab-fcf5-42ae-a9fe-466d2b6b5733"/>
+    <listType typeId="3218ac74-d80e-40b9-889e-78bc783e20de" valueTypeId="9e25f129-fbf8-4895-a543-0a542898765f"/>
+    <managerType typeId="4fdbe53a-42a5-405a-bf9c-97d0cecd05d6" valueTypeId="1b7eef92-a4fe-4fa6-bdd7-cb296ac1ce8b"/>
+    <recordSetType typeId="6159dea4-9dfd-47dc-a081-d268d03d53ce" valueTypeId="88563f31-77e1-4040-a272-8f6c9eb6d213"/>
+    <recordKeyType typeId="963e6495-59e3-41f0-93e8-b971f8b47a5b" valueTypeId="3d7a3944-ea8d-436a-9e0d-f8240945fe53"/>
+    <recordType typeId="5e5b28c4-3975-49c3-9d16-414f9ee75dca" valueTypeId="df5fbabd-fe80-4aba-8a17-10ae382c3935"/>
+    <recordManagerType typeId="1a308ebc-b854-435b-b057-b194a5e0426f" valueTypeId="1d10c86a-53d2-42ac-92df-240f6d4442c6"/>
+  </producedTypes>
+  <name>ДоступОтчетыИОбработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доступ к отчетам и обработкам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ДоступОтчетыИОбработки.Form.Запись</defaultRecordForm>
+  <defaultListForm>InformationRegister.ДоступОтчетыИОбработки.Form.Список</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="359c4581-6e03-4c7b-b389-0dd2c4df2b39">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ff24b043-d38e-4460-8151-68dacdaeacd3">
+    <name>ОбработкаОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет/ Обработка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДополнительныеОтчетыИОбработки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="004f9489-6736-46dc-87be-917707bb269e">
+    <name>Запись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запись</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d93597d1-0b2a-4d0a-9771-db9af050321d">
+    <name>Список</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6311ee73-8e38-467b-8933-24920c636d5a">
+  <name>ПроектныеМатериалыИИзделияРедактирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочник &quot;Проектные материалы и изделия&quot; (редактирование)</value>
+  </synonym>
+</mdclass:Role>

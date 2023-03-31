@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="15789dcf-633d-4219-8b82-6108412d69d3">
+  <producedTypes>
+    <objectType typeId="fd0f2502-53a9-4417-bfc0-0ca95a6d34d3" valueTypeId="ee23132a-951c-4e29-9eaa-1583cb182d39"/>
+    <refType typeId="66176d3d-e2c5-4302-8db3-a925cab882ca" valueTypeId="7355ab8c-521d-484a-82bb-5f456a736319"/>
+    <selectionType typeId="5e4a7bd7-0777-4ddc-a836-403bf075716f" valueTypeId="0ae56ddc-8735-42e9-8174-456505d16150"/>
+    <listType typeId="4abe838f-919c-4b0e-a9d8-91a2d6f2d3bc" valueTypeId="a20d462f-aeaa-4652-89c7-95fb84aca573"/>
+    <managerType typeId="41b91a26-b7f9-4307-b275-cab6aaf2d21e" valueTypeId="7145dbb9-b235-4c0d-a8e1-f2aa07152520"/>
+  </producedTypes>
+  <name>ПараметрыЭлементовИИхЗначения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры элементов и их значения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПараметрыЭлементовИИхЗначения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПараметрыЭлементовИИхЗначения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ПараметрыЭлементовИИхЗначения.Form.Элемент</defaultObjectForm>
+  <defaultListForm>Catalog.ПараметрыЭлементовИИхЗначения.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="b159065e-a448-4123-9e4c-1f967dcd4ed0">
+    <name>ТипЗначенияПараметра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип значения параметра</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипДанныхВПараметрахBIM</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="48155923-d689-4a27-a20c-957958aebe6b">
+    <producedTypes>
+      <objectType typeId="c3e9585c-cc89-42e0-8701-aaf811c65a43" valueTypeId="3efb27ca-2f82-44c1-9ab9-1f030e139f3b"/>
+      <rowType typeId="03f7fe99-d74b-4cd9-abfa-79fdc9fdce29" valueTypeId="bf7421b4-3ec2-441a-b423-c46c7ac0c2d4"/>
+    </producedTypes>
+    <name>ЗначенияПараметров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значения параметров</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <attributes uuid="1461664c-791c-45c4-beff-718c9707f066">
+      <name>ЗначениеПараметра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение параметра</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1000</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="37e20f61-b99a-49cf-98ce-b559cef0e685">
+      <name>ДействительноС</name>
+      <synonym>
+        <key>ru</key>
+        <value>Действительно с</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="08bba82c-e1bc-471e-ae34-d67798313551">
+      <name>ДействительноДо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Действительно до</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="8cef10f4-f41d-435b-a45d-b925d4e0623f">
+    <producedTypes>
+      <objectType typeId="c8f8b0eb-52d0-4413-aec7-debd85c6be8c" valueTypeId="b8094274-585f-4437-91be-7d565895e1d2"/>
+      <rowType typeId="e1b07e68-869f-4dd9-bbff-9946552409d1" valueTypeId="d9e6563b-c8c0-41d6-a571-8f47f6dd5f20"/>
+    </producedTypes>
+    <name>СтандартыПараметризацииЭлементов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандарты параметризации элементов</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <attributes uuid="1fe04f38-86a2-4d17-98ae-4657e5c78e0f">
+      <name>СтандартПараметризацииЭлементов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Стандарт параметризации элементов</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтандартыПараметризацииЭлементов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="ce2a5806-c48a-4ea9-92e9-e0de1d086b4d">
+    <name>Элемент</name>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f4edcec7-747a-44b1-a83c-30eee4118571">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

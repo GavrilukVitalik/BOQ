@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25f5d947-9292-4402-bfea-10a6a276ab83">
+  <producedTypes>
+    <refType typeId="1c3d2e2a-5a46-4b50-bf9e-371326d36adf" valueTypeId="325373b5-7307-4d3f-abfb-839a1a5f9895"/>
+    <listType typeId="0eaea400-0d70-4658-a339-c912426d9289" valueTypeId="dedf6c02-e91b-44d5-8f05-21daa42c3b0f"/>
+    <managerType typeId="e42e6faf-be20-44b6-b123-a30f842f1b23" valueTypeId="4a67fd2a-894e-4203-ae0a-d86a0dce2050"/>
+  </producedTypes>
+  <name>ВидПродукцииПоСтепениПереработки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид продукции по степени переработки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8688989b-d603-4dc0-86ed-bf9030e06cc6">
+    <name>Сырьё</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сырьё</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="05f0f51d-0ae8-496c-825b-9e5165257aad">
+    <name>Материал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a376b4be-7e7c-4250-b1e9-6c0ee6b2d38d">
+    <name>Полуфабрикат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полуфабрикат</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0429e3ae-5817-48e3-bc8b-b0f871eb1cdf">
+    <name>Изделие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изделие</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

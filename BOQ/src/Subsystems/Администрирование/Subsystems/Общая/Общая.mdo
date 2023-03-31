@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a399c68-cbac-431b-9ed9-b839382f6257">
+  <name>Общая</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общая</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Common</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ВидыКонтактнойИнформации</content>
+  <content>Catalog.СтруктураПредприятия</content>
+  <content>Catalog.ФизическиеЛица</content>
+  <content>ChartOfCharacteristicTypes.НастройкиПользователей</content>
+  <content>Catalog.ЕдиницыИзмерения</content>
+  <content>DataProcessor.ПросмотрФайлов</content>
+  <content>FilterCriterion.СвязанныеДокументы</content>
+  <content>DataProcessor.WorkWithTablesMPP</content>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+</mdclass:Subsystem>

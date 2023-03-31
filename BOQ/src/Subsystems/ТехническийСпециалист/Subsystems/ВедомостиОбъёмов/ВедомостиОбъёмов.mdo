@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce1fc34d-aa09-4f7b-8551-1dde06eb87ac">
+  <name>ВедомостиОбъёмов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ведомости объёмов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ПравилаАнализаBIMМоделей</content>
+  <content>Catalog.КомплектыПравилАнализаBIMМоделей</content>
+  <content>Role.КомплектыПравилАнализаBIMМоделейПросмотр</content>
+  <content>Role.КомплектыПравилАнализаBIMМоделейРедактирование</content>
+  <content>Role.ПравилаАнализаBIMМоделейПросмотр</content>
+  <content>Role.ПравилаАнализаBIMМоделейРедактирование</content>
+  <parentSubsystem>Subsystem.ТехническийСпециалист</parentSubsystem>
+</mdclass:Subsystem>

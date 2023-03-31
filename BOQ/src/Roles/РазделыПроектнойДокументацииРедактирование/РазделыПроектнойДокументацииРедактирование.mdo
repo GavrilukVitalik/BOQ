@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1845792a-f8cc-4011-bd8d-b2d208c71891">
+  <name>РазделыПроектнойДокументацииРедактирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочник &quot;Разделы проектной документации&quot; (редактирование)</value>
+  </synonym>
+</mdclass:Role>

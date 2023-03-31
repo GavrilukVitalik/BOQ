@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5bf8944d-f48e-4030-af92-1d6b994f8e7c">
+  <producedTypes>
+    <refType typeId="9f7ba6f7-b837-4d80-9351-19bc26154674" valueTypeId="812f022e-bd17-462e-8c02-ad4d224c2e0b"/>
+    <listType typeId="b7994fc3-1a85-49f3-bf75-3cb0a3a6c83b" valueTypeId="574629dc-38d9-413d-8451-0afbb5070df2"/>
+    <managerType typeId="ffce6138-e7c5-4cff-9541-2a063c31917d" valueTypeId="dacd2d64-5bcf-49e6-a07e-36b3c0651bc5"/>
+  </producedTypes>
+  <name>Роли</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роли</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Roles</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7ddc09ea-bf8d-4d45-b74d-553e2a9dc1b4">
+    <name>ПолныеПрава</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полные права</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1641ae6c-3201-48ab-844c-2df48adf2163">
+    <name>ТехническийСпециалист</name>
+    <synonym>
+      <key>ru</key>
+      <value>Технический специалист</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

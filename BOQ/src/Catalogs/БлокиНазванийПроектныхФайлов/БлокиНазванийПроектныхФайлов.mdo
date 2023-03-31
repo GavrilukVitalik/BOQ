@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd386962-fbfd-4eda-81b2-b0bbbce83aad">
+  <producedTypes>
+    <objectType typeId="90a4e4fa-ef74-4a5f-bacd-3369f3e19f69" valueTypeId="471615a3-f1a3-4e4a-87d4-047511a1f57d"/>
+    <refType typeId="3d428710-8cf8-49da-a942-7a65d4ff600e" valueTypeId="44279ace-e4ed-4f82-948e-43fa4f0ed195"/>
+    <selectionType typeId="64fc23fe-58bf-4724-a688-e0fd8c2935d8" valueTypeId="99d64ed7-7261-45e4-bffc-d6fa01300286"/>
+    <listType typeId="18082c45-fa09-4122-af58-fbe24de25d62" valueTypeId="d72b10c0-386f-49c6-a29c-7d33dec7bd53"/>
+    <managerType typeId="43d2c2fe-1ac8-4e18-ac05-b63b7a471827" valueTypeId="56feaae8-e8c2-4bec-98b9-b6969dc7edd3"/>
+  </producedTypes>
+  <name>БлокиНазванийПроектныхФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Блоки названий проектных файлов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.БлокиНазванийПроектныхФайлов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.БлокиНазванийПроектныхФайлов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.БлокиНазванийПроектныхФайлов.Form.Элемент</defaultObjectForm>
+  <attributes uuid="3eea9433-c191-4c47-bb95-1bac042ceae6">
+    <name>СимволовВБлоке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Символов в блоке</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:StringValue">
+      <value>1</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>10</value>
+    </maxValue>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:NumberValue">
+      <value>1</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c82a8bff-d01f-48cd-99dd-d7b9058c8b43">
+    <name>НазначениеБлока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначение блока</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="5ed6c08a-4517-4669-ac03-2c25936e52fb">
+    <producedTypes>
+      <objectType typeId="73cc6d05-3815-46f8-a26b-52c0690772ff" valueTypeId="6ac4b839-6e6a-42a3-95f6-e43fef736a7e"/>
+      <rowType typeId="cca97ab2-2312-4cdd-960f-4dc7d7e8f35d" valueTypeId="59f96ec2-953a-4b3b-a57a-22e964d791ae"/>
+    </producedTypes>
+    <name>СтадииПроектнойДокументации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стадии проектной документации</value>
+    </synonym>
+    <attributes uuid="31feecbc-2c5b-467d-99e2-42232ea2da0c">
+      <name>ЗначениеБлока</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение блока</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e5d90db3-3ba7-4b83-9178-d3ff4fcb90b0">
+      <name>СтадияПроектнойДокументации</name>
+      <synonym>
+        <key>ru</key>
+        <value>Стадия проектной документации</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СтадииПроектнойДокументации</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="c82c0c77-7f14-41fe-ad73-d3223f208e14">
+    <producedTypes>
+      <objectType typeId="832ab17c-f3d7-4105-a47a-baf3c1e5c713" valueTypeId="0f7ec50e-105b-400c-8af5-ff496a12eee1"/>
+      <rowType typeId="0e402200-f99e-46b1-a26f-f8ed985f8b65" valueTypeId="2bea1cf9-b959-4c5e-b0de-03df9a9c91e9"/>
+    </producedTypes>
+    <name>РазделыПроектнойДокументации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разделы проектной документации</value>
+    </synonym>
+    <attributes uuid="0377df54-4aaf-4e82-ae8e-be2392bdf3fb">
+      <name>ЗначениеБлока</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение блока</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="99b3b9ff-f6f0-468d-a2a0-893602af06ef">
+      <name>РазделПроектнойДокументации</name>
+      <synonym>
+        <key>ru</key>
+        <value>Раздел проектной документации</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.РазделыПроектнойДокументации</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="2c2466cf-e6fc-4fe5-89d3-b116cbf4d850">
+    <name>Элемент</name>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60edaa3c-5b97-4f37-895a-08d645c42a83">
+  <producedTypes>
+    <objectType typeId="2af2abb9-5f8c-43f1-b01f-ec72488c6f6a" valueTypeId="899bd890-17ba-432a-9a5b-338052022be2"/>
+    <refType typeId="b86dd0da-fae5-4a91-bb6d-cd5f879bfca4" valueTypeId="15043b6f-b19c-4298-8b58-1b018b6cc79e"/>
+    <selectionType typeId="99cb8285-7929-4c52-a097-90599660d8cd" valueTypeId="f1b3afd3-8aee-4735-afbc-254a9b1b0bf7"/>
+    <listType typeId="07a6ac10-b7e2-45eb-9bc2-f622135658b0" valueTypeId="f00743f2-de51-4419-bf08-e4a164aeec61"/>
+    <managerType typeId="ea3e2290-8cd4-4281-b8da-70db4e75232d" valueTypeId="b58d121e-81c2-4be9-8c83-a73502090960"/>
+  </producedTypes>
+  <name>ПроектнаяДокументацияНаИзделие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проектная документация на изделие</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПроектнаяДокументацияНаИзделие.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ПроектнаяДокументацияНаИзделие.Form.Документ</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="e595d94b-4fe5-4cef-9422-a705cec68e08">
+    <name>ИдентификаторМодели</name>
+    <synonym>
+      <key>ru</key>
+      <value>URN</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8f42ce76-7ade-4f61-928b-6007e0292f90">
+    <name>ИмяКонтейнера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя контейнера (bucket)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="63b557c4-70f4-488b-b9c7-724a1fcd7df8">
+    <name>ИспользуемыйBIMСтандарт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используемый BIM-стандарт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.BIMСтандарты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f7ca1151-ea4d-4503-b3b4-058bede07fa2">
+    <name>МодельID</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель ID</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e4ad555e-871a-47a4-b3c1-ac91f8babebd">
+    <name>НаименованиеДокументации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование документации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1850fe87-09c9-4504-9bb9-f7f4c8b3d6ef">
+    <name>СтатусДокументации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус проектной документации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c0e81292-055d-4407-9e3c-2f16866a40ac">
+    <name>УчетнаяЗаписьBIM</name>
+    <synonym>
+      <key>ru</key>
+      <value>BIM: учетная запись</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчетныеЗаписиBIM</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1c9b56fa-6f4b-44c9-8d4b-37bead837b09">
+    <name>ФайлRVT</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл документации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a52348ef-1e3f-496a-9f7b-4d00a79e9327">
+    <name>ФайлSVF</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл SVF2</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="c1e6b69c-ce5a-4ba3-ab68-0f6d4fde5450">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fcfcec76-1250-4d47-9cae-a4a6a3ec47f0">
+  <name>Проектирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проектирование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ПроектнаяДокументацияНаИзделие</content>
+  <content>Document.ВедомостиОбъемов</content>
+  <content>Catalog.ДополнительныеОтчетыИОбработки</content>
+</mdclass:Subsystem>

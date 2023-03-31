@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac3d5e1f-63fa-4022-8cfc-9af517d45057">
+  <producedTypes>
+    <managerType typeId="45da1988-e115-44bb-9758-f357a3285ada" valueTypeId="ad75e261-86f3-485c-b0f5-9af08d10d29e"/>
+    <valueManagerType typeId="bcd77b9d-e4a7-451a-a948-b280049eb726" valueTypeId="feab93b2-4585-4364-baf4-e78f46a39a0b"/>
+    <valueKeyType typeId="2d41ad2d-cc80-4714-b7da-fe3d27e1db8f" valueTypeId="40481aa6-6564-437d-a6f5-95d39ed76fd1"/>
+  </producedTypes>
+  <name>ХранениеФайловВеб</name>
+  <synonym>
+    <key>ru</key>
+    <value>Путь для хранения файлов (веб)</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>500</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

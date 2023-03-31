@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="200cf77e-a096-4191-bc6f-09badd15cf71">
+  <name>GIF</name>
+  <synonym>
+    <key>ru</key>
+    <value>GIF</value>
+  </synonym>
+</mdclass:CommonPicture>

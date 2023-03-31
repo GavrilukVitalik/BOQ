@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8d4e699-5b90-4292-aec3-d9bb8e67677f">
+  <producedTypes>
+    <objectType typeId="1b25bd9a-5142-4a5e-af93-af43e86e6dff" valueTypeId="148eb4e3-4ab3-4b9c-a08b-6dd88ed5c40e"/>
+    <refType typeId="7cb69abd-59ac-4d1f-8149-408a8525952f" valueTypeId="568b079f-abb2-487a-92f4-2ccb9833961e"/>
+    <selectionType typeId="28bbad4c-490a-4df3-a3d6-913215f67722" valueTypeId="c427d768-2c45-4c4d-9a0c-453aa28559c8"/>
+    <listType typeId="30dbfee2-67cd-48c5-9a71-8eecf6ef9180" valueTypeId="c035edbd-d438-4141-bf58-2b10077978a3"/>
+    <managerType typeId="ca56fe56-9b66-4d91-b255-5f4f08a99f82" valueTypeId="e2523ac5-66ae-4277-a6cf-732761a61595"/>
+  </producedTypes>
+  <name>РазделыПроектнойДокументации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разделы проектной документации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РазделыПроектнойДокументации.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.РазделыПроектнойДокументации.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="7b314f38-b2b7-4e28-ae54-894f03a0f2c3">
+    <name>ШифрРазделаПроекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шифр раздела проекта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="c3e238f3-ebab-4dc6-b4b3-1edbc8f64591">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71fab065-c0a6-4075-ae1b-dacd467497bd">
+  <producedTypes>
+    <objectType typeId="a63efffb-7e13-4b20-bc2b-3ace91172064" valueTypeId="0f38e16f-88cc-4178-942c-1c8c5137e564"/>
+    <managerType typeId="9e6dd669-1b95-4af4-8386-674f42260a2e" valueTypeId="93fdcce0-c37a-4178-b517-1f238cd9e9af"/>
+  </producedTypes>
+  <name>ПросмотрФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр файлов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Docs viewer</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПросмотрФайлов.Form.Форма</defaultForm>
+  <forms uuid="24aab7d3-12f7-41cc-862d-7b75eed8b000">
+    <name>Форма</name>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="334a6945-9270-456e-9899-17122e5a7927">
+    <name>PDF</name>
+    <synonym>
+      <key>ru</key>
+      <value>PDF</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="0b4dc2b5-f67b-465e-9334-362b18cde380">
+    <name>TXT</name>
+    <synonym>
+      <key>ru</key>
+      <value>TXT</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="aeaa7c9c-d023-474e-a99d-cece5d3545a3">
+    <name>IMAGE</name>
+    <synonym>
+      <key>ru</key>
+      <value>IMAGE</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="b40b2f65-8839-4e74-8634-b4ea1201caac">
+    <name>MSDOC</name>
+    <synonym>
+      <key>ru</key>
+      <value>MSDOC</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

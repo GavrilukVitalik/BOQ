@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="345be315-a729-4e0d-a590-6cb3f7ef77f9">
+  <name>ПроектныеХарактеристикиИзделийПросмотр</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочник &quot;Проектные характеристики изделий&quot; (просмотр)</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cbc95149-f104-4b4e-b4b2-b478547e7c2a">
+  <producedTypes>
+    <objectType typeId="22d98403-0250-419a-b62d-ca2092de0a3f" valueTypeId="f093526f-f639-4878-8c71-e673f5ed9658"/>
+    <refType typeId="f4e3f8e2-7aaf-4050-8e99-0dc44016b2fd" valueTypeId="ef23d0be-7196-42ab-9d09-295133d3ec6c"/>
+    <selectionType typeId="44cddd57-2d2d-444e-8e9a-b5d7226ef2ab" valueTypeId="b8b19abb-3456-4612-982c-d9d4f6ecd348"/>
+    <listType typeId="6bdc32fb-e706-4eff-a5d3-f2e436866003" valueTypeId="d36e5674-9c37-46aa-a151-b1ea8a7939f0"/>
+    <managerType typeId="a59eea89-eb7a-46af-b932-d4b3352f025a" valueTypeId="48a6e2db-753f-4099-893f-bb9b4d03c7df"/>
+  </producedTypes>
+  <name>ВедомостиОбъемов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ведомости объемов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ВедомостиОбъемов.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <basedOn>Document.ПроектнаяДокументацияНаИзделие</basedOn>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ВедомостиОбъемов.Form.Документ</defaultObjectForm>
+  <defaultListForm>Document.ВедомостиОбъемов.Form.Список</defaultListForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="c0482475-8eac-428d-aa90-291142ff0c40">
+    <name>ПроектнаяДокументацияНаИзделие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проектная документация на изделие</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПроектнаяДокументацияНаИзделие</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a844de6e-85b2-4f0a-b37a-d13aaaf2d6a7">
+    <name>НаименованиеИзделия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование изделия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Изделия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="4c175126-ffde-42e7-a8c0-9950b9909536">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a1c93d65-6527-4862-b034-2aea37912611">
+    <name>Список</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

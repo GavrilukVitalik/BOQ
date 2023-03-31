@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6059c3dc-2fa1-439f-8fb4-f1c2f9b0396a">
+  <producedTypes>
+    <refType typeId="9460caa2-2d86-4803-84a8-747b4c8b0c24" valueTypeId="ff4b190d-2d3a-4d24-86bc-ef65e65a3a63"/>
+    <listType typeId="e885483e-9a1c-45b5-a908-ead8f127b430" valueTypeId="44bd6aa7-2d03-481e-b80f-3926de2d9a71"/>
+    <managerType typeId="e8a476f0-5d48-4b40-bbd0-7a9a338b7457" valueTypeId="76e18eeb-7031-4fcc-8d49-38a111a5f995"/>
+  </producedTypes>
+  <name>ТипДанныхВПараметрахBIM</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип данных в параметрах BIM</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bea1ed65-965e-41bc-a27b-8b908ebdd752">
+    <name>СтроковыйТип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строковый тип</value>
+    </synonym>
+    <comment>Содержит текст</comment>
+  </enumValues>
+  <enumValues uuid="57f2b8dd-bdf5-410f-a9f5-c73490b0a517">
+    <name>ЧисловойТип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Числовой тип</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ba8e69db-dd45-4a7a-ae69-9144af3b1eed">
+    <name>ЛогическийТип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логический тип</value>
+    </synonym>
+    <comment>Содержит значение Истина (True, 1) или Ложь (False, 0)</comment>
+  </enumValues>
+</mdclass:Enum>

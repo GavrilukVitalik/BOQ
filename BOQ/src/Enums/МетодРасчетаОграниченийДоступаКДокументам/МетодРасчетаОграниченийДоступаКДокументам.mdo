@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="145f84a5-b2ec-4cf7-a773-b2f892514d6a">
+  <producedTypes>
+    <refType typeId="4f7aa6e1-7c2a-4f31-9a8b-73ae51eff948" valueTypeId="93473ae2-fba7-4c3d-a264-bcc669a532f1"/>
+    <listType typeId="5f8f7312-8c7e-4280-a9aa-8c687b828a9a" valueTypeId="4b565eb8-b1f7-4453-a45f-bb0e99369c3f"/>
+    <managerType typeId="085992dc-2f81-4012-a7eb-15b6d4d0b8b8" valueTypeId="98b74d7c-461b-438f-8037-197f53b6af80"/>
+  </producedTypes>
+  <name>МетодРасчетаОграниченийДоступаКДокументам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Метод расчета ограничений доступа к изменению документов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f8ece558-2cab-4841-bb10-3675878dafe3">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="47cfc200-6fc8-432d-9840-da5667407c8e">
+    <name>КоличествоДней</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество дней</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e66df2e-5bcc-467c-a1b0-407e5c375977">
+  <producedTypes>
+    <refType typeId="f41c2214-ee9f-42e4-beb1-d80e55848fe0" valueTypeId="70299911-4c75-4ac9-b2d6-d1aea0a4fa0d"/>
+    <listType typeId="76addaa8-cde6-4860-b272-bc06130a2bfb" valueTypeId="a2027598-f4b6-4893-ac95-e7a8a3573256"/>
+    <managerType typeId="e579a015-57db-4a8c-b8a3-367b2a3315a4" valueTypeId="840d79ef-9401-481a-94b1-f793484ae379"/>
+  </producedTypes>
+  <name>ТипыЕдиницИзмерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы единиц измерения</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="12dfeea9-03d2-4cae-a747-c6a2703a7ec1">
+    <name>Весовая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Весовая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7eb3890d-20d8-4639-8380-33fceebda08a">
+    <name>Штучная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штучная</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6999f2a2-cf96-40a1-9a67-126b2320f508">
+  <name>ДокументПомеченНаУдалениеКоннекторНиз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документ помечен на удаление коннектор низ</value>
+  </synonym>
+</mdclass:CommonPicture>

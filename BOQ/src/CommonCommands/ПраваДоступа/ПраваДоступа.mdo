@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="075472b3-683b-4f57-b8eb-6b2bbcd35d5d">
+  <name>ПраваДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Права доступа</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Access rights</value>
+  </synonym>
+  <group>FormNavigationPanelGoTo</group>
+  <commandParameterType>
+    <types>CatalogRef.Пользователи</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="847c5c0d-d189-4923-8df0-9b99b78f8bf7">
+  <name>Файлы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Файлы</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Attached</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>CatalogRef.СтандартыНаименованияПроектныхФайлов</types>
+    <types>CatalogRef.СтруктураПредприятия</types>
+    <types>CatalogRef.ПрофилиГруппДоступа</types>
+    <types>CatalogRef.BIMСтандарты</types>
+    <types>CatalogRef.КомплектыПравилАнализаBIMМоделей</types>
+    <types>CatalogRef.ПравилаАнализаBIMМоделей</types>
+    <types>CatalogRef.СтадииПроектнойДокументации</types>
+    <types>CatalogRef.БлокиНазванийПроектныхФайлов</types>
+    <types>CatalogRef.ПроектныеХарактеристикиИзделий</types>
+    <types>CatalogRef.Пользователи</types>
+    <types>CatalogRef.СоответствияЕдиницИзмеренияВBIMМоделях</types>
+    <types>CatalogRef.ГруппыДоступа</types>
+    <types>CatalogRef.ЕдиницыИзмерения</types>
+    <types>CatalogRef.ПараметрыЭлементовИИхЗначения</types>
+    <types>CatalogRef.РазделыПроектнойДокументации</types>
+    <types>CatalogRef.ТипыИзделий</types>
+    <types>CatalogRef.СтандартыПараметризацииЭлементов</types>
+    <types>CatalogRef.ФизическиеЛица</types>
+    <types>DocumentRef.ПроектнаяДокументацияНаИзделие</types>
+    <types>CatalogRef.Изделия</types>
+    <types>CatalogRef.ДополнительныеОтчетыИОбработки</types>
+    <types>CatalogRef.ПроектныеМатериалыИИзделия</types>
+    <types>CatalogRef.ВидыКонтактнойИнформации</types>
+    <types>CatalogRef.ГруппыПользователей</types>
+    <types>DocumentRef.ВедомостиОбъемов</types>
+    <types>CatalogRef.УчетныеЗаписиBIM</types>
+  </commandParameterType>
+  <representation>Picture</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Прикрепленные файлы</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Файлы</picture>
+  </picture>
+</mdclass:CommonCommand>

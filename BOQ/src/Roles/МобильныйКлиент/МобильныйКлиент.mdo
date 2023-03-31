@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b430df6-e252-4bef-99a2-d4678ffef8ea">
+  <name>МобильныйКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мобильный клиент</value>
+  </synonym>
+</mdclass:Role>

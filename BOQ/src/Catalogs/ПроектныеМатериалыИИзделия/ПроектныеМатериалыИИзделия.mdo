@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6e921a7-c8af-4754-b3d3-f14959fd2e38">
+  <producedTypes>
+    <objectType typeId="44ae2765-1202-4b30-ab4a-88c9c7fccf81" valueTypeId="5350457a-530b-48fc-abbb-cd81a8d0e03e"/>
+    <refType typeId="d082d152-b19a-4788-9fee-7d9893aeafc2" valueTypeId="8e3db73f-3d8b-45f5-8183-9bba65fb5184"/>
+    <selectionType typeId="185f0375-73c4-40b0-ad89-1fe25eddc536" valueTypeId="3b0fe22b-0c04-4300-a6f8-2afc2b2d717c"/>
+    <listType typeId="0b81aece-157e-4b34-ad24-e1cfd7aaf371" valueTypeId="a76e5d0a-4cd4-492c-ae07-04d8c95b6a34"/>
+    <managerType typeId="c8020c40-e256-44ac-89e6-7d7ac9beb5e2" valueTypeId="cc63d930-3a04-4827-ad4f-7e5bfd0e4907"/>
+  </producedTypes>
+  <name>ПроектныеМатериалыИИзделия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проектные материалы и изделия</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПроектныеМатериалыИИзделия.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПроектныеМатериалыИИзделия.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ПроектныеМатериалыИИзделия.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="92105636-591c-491e-8cf1-8d3324f87283">
+    <name>ЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЕдиницыИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e3c73838-6f5e-4a13-972d-a22b68865d5e">
+    <name>ВидПродукцииПоСтепениПереработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид продукции по степени переработки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидПродукцииПоСтепениПереработки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="df3f9f65-bcc4-4c15-bff0-954df55531c1">
+    <name>ТипИзделия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип изделия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыИзделий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="9daeab45-d9ff-40d2-a847-931721b72eed">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

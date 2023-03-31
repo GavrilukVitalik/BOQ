@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16d90e96-30b7-47c7-869d-453bf7c25d8e">
+  <name>ПравилаАнализаBIMМоделейРедактирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочник &quot;Правила анализа BIM-моделей&quot; (редактирование)</value>
+  </synonym>
+</mdclass:Role>

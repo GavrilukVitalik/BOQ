@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="932929d6-3b42-4813-8f9e-1ea5cccb05fd">
+  <name>ТехническийСпециалист</name>
+  <synonym>
+    <key>ru</key>
+    <value>Технический специалист</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ДополнительныеОтчетыИОбработки</content>
+  <subsystems>ПроектнаяДокументация</subsystems>
+  <subsystems>ВедомостиОбъёмов</subsystems>
+  <subsystems>BIMСтандарты</subsystems>
+  <subsystems>МатериалыИИзделия</subsystems>
+</mdclass:Subsystem>

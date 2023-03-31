@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78f87da7-56a3-4eeb-b6e4-bc46dcfaa33e">
+  <name>ФизическиеЛицаРедактирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочник &quot;Физические лица&quot; (редактирование)</value>
+  </synonym>
+</mdclass:Role>

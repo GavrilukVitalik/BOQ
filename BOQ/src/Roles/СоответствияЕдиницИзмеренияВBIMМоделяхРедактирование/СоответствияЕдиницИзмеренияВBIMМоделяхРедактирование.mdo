@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ccc79a3-b752-4bc4-9aa4-dd19c91d18a5">
+  <name>СоответствияЕдиницИзмеренияВBIMМоделяхРедактирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочник &quot;Соответствия единиц измерения в BIM-моделях&quot; (редактирование)</value>
+  </synonym>
+</mdclass:Role>

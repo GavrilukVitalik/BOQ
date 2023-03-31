@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ccdc036f-aa2c-494d-bfcc-5d8c8acaca3f">
+  <name>ДоступСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доступ (сервер)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Rights (server)</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

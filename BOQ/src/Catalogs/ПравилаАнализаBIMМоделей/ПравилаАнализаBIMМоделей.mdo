@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a10e730-db91-40cb-9eb0-232c7cef3fb6">
+  <producedTypes>
+    <objectType typeId="67956ad2-fa83-4168-9e27-150f04e8132d" valueTypeId="3ef0f6e2-071d-4701-86e9-3ae914b9f3ed"/>
+    <refType typeId="2a84ff87-7d11-4b0c-b55e-a9317b53c8b7" valueTypeId="c3c89210-9e01-42d7-b592-d2d5b61b936c"/>
+    <selectionType typeId="8037ae8e-a0cb-4839-be12-b04aacc6b63b" valueTypeId="dc5b1f1c-f731-424b-8cc7-0d4362a93195"/>
+    <listType typeId="8ba63b35-d23b-481d-a599-a500622c1f39" valueTypeId="04ff3bb7-0fbe-4673-aeff-fc1256e7134e"/>
+    <managerType typeId="0b78acdb-6289-437d-9c10-a632c9dc8fd8" valueTypeId="85d31e93-1e1a-405e-b663-a3a0ff1eb7b9"/>
+  </producedTypes>
+  <name>ПравилаАнализаBIMМоделей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Правила анализа BIM-моделей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПравилаАнализаBIMМоделей.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПравилаАнализаBIMМоделей.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

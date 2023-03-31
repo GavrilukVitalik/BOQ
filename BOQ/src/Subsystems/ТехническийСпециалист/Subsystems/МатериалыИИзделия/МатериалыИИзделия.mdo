@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="066df54d-dfbf-446f-8333-d751ed5118ff">
+  <name>МатериалыИИзделия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Материалы и изделия</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ПроектныеХарактеристикиИзделий</content>
+  <content>Catalog.Изделия</content>
+  <content>Catalog.ТипыИзделий</content>
+  <content>Catalog.ПроектныеМатериалыИИзделия</content>
+  <content>Enum.ВидПродукцииПоСтепениПереработки</content>
+  <content>Role.ИзделияПросмотр</content>
+  <content>Role.ИзделияРедактирование</content>
+  <content>Role.ПроектныеМатериалыИИзделияПросмотр</content>
+  <content>Role.ПроектныеМатериалыИИзделияРедактирование</content>
+  <content>Role.ТипыИзделийПросмотр</content>
+  <content>Role.ТипыИзделийРедактирование</content>
+  <content>Role.ПроектныеХарактеристикиИзделийПросмотр</content>
+  <content>Role.ПроектныеХарактеристикиИзделийРедактирование</content>
+  <parentSubsystem>Subsystem.ТехническийСпециалист</parentSubsystem>
+</mdclass:Subsystem>

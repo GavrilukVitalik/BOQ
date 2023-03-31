@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2dedf23d-9bcc-432d-8598-dbec0e689a79">
+  <producedTypes>
+    <refType typeId="8be054ed-de0f-4f59-802c-3c4c806ffe21" valueTypeId="9856732f-5eb2-4df1-a871-3340b3bdda43"/>
+    <listType typeId="6c087504-e054-4666-b833-09d047805529" valueTypeId="7844c6c8-ac01-4c61-bed3-4fd79c591756"/>
+    <managerType typeId="0ecc684f-57a2-4266-8e3e-40ea72ed4104" valueTypeId="55172d6a-fad4-44ef-aef0-27c603f9a5b3"/>
+  </producedTypes>
+  <name>ВидПодразделения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид подразделения</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b4ef4bbc-d8b8-448b-85f4-16e2717aadc4">
+    <name>Инжиниринг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инжиниринг</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="18746706-87ae-4196-9c1e-48104356b0b5">
+    <name>ИТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИТ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="48d0c7c3-3567-4cfe-9d3b-fe8fbb98db2a">
+    <name>Общий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aea15a25-ca35-4496-99aa-1987cc1de669">
+    <name>Снабжение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Снабжение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="96d8cfd9-60e2-41eb-b62e-b9426b1412bf">
+    <name>Финансовый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Финансовый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3de80666-1fbd-4069-9e0e-6ef7ebabffbc">
+    <name>Юридический</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юридический</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

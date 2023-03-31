@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6337122-6bf6-43d0-8389-a9db85c0be04">
+  <producedTypes>
+    <objectType typeId="ef319b4a-3842-4d7f-ad6a-5f0d924b7375" valueTypeId="27626ffa-2dd9-492c-9907-9387ab3a3945"/>
+    <refType typeId="5577b8c9-07c0-4313-b392-dc9b4ea450ce" valueTypeId="623435ee-6055-4ed9-864f-9711795c730a"/>
+    <selectionType typeId="19dbe2ad-514c-48cb-b80a-e56aaed50018" valueTypeId="1a43c7c2-129e-453a-ad01-460656ca0ae9"/>
+    <listType typeId="abcffd64-6e52-4d97-806c-044cfdd3c99a" valueTypeId="39856184-0a5c-43ef-a240-918343d8e875"/>
+    <managerType typeId="c03067dc-de4d-41bb-b542-cbf11a5abe04" valueTypeId="ad626e06-1b2e-4a60-bd08-39ce7d15ae10"/>
+  </producedTypes>
+  <name>СоответствияЕдиницИзмеренияВBIMМоделях</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствия единиц измерения в BIM-моделях</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СоответствияЕдиницИзмеренияВBIMМоделях.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СоответствияЕдиницИзмеренияВBIMМоделях.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

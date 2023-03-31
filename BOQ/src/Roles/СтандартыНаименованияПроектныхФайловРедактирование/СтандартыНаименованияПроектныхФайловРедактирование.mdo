@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7455cc16-ca3b-4f10-ac0a-e4f62b7bc211">
+  <name>СтандартыНаименованияПроектныхФайловРедактирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочник &quot;Стандарты наименования проектных файлов&quot; (редактирование)</value>
+  </synonym>
+</mdclass:Role>

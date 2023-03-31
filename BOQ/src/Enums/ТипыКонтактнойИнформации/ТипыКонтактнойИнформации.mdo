@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c405b6c9-503d-4c70-bde8-192de1fa3624">
+  <producedTypes>
+    <refType typeId="35e2e797-3cc7-478b-9570-5adb5f9aa210" valueTypeId="4d5ae97a-8d43-4da4-9033-e4dae0e03960"/>
+    <listType typeId="4adcf25f-e6a0-4bd5-807f-460c54b5c43e" valueTypeId="29a84a42-1937-44f6-b7c6-f07a0cf3a37a"/>
+    <managerType typeId="07fdf456-d294-496d-a204-d5c7b28c2c8d" valueTypeId="4719ed73-c106-45d5-8c34-d946435e6710"/>
+  </producedTypes>
+  <name>ТипыКонтактнойИнформации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы контактной информации</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d1596136-c94f-4b02-98d9-65cdfb9c0f52">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="95631646-c90b-40e3-9c48-63d81a906410">
+    <name>Телефон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телефон</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bed94dbd-a93a-41f0-9848-393ee908795a">
+    <name>АдресЭлектроннойПочты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес электронной почты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="265ad863-36c2-4f11-aa68-edbe8e7ef415">
+    <name>ВебСтраница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Веб страница</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9e36462c-c500-416b-8b9f-d462048fb70c">
+    <name>Факс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Факс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f75e5288-798c-403a-9673-0a3019fcd1f8">
+    <name>Другое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Другое</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

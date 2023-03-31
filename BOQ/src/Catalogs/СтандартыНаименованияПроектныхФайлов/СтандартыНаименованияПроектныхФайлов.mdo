@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86996e2e-7094-4238-a778-92fab07b4543">
+  <producedTypes>
+    <objectType typeId="c8054a40-6d0d-4f05-8762-f7a9bade76a7" valueTypeId="8b70b838-e107-4cf4-8ed7-fa3c759b32ab"/>
+    <refType typeId="0d83c85b-d176-4d55-9db2-d4f37cf969cf" valueTypeId="afb02703-3d74-4c4a-9414-5696d85c4d5c"/>
+    <selectionType typeId="53ae0810-5584-4fbf-bacb-88dc9cd6f317" valueTypeId="daa21f0b-8819-47d4-b499-d61336d6b36a"/>
+    <listType typeId="e7004de2-7e94-4399-bdb4-ba51bd8ae358" valueTypeId="fc7ce7ef-970a-43a4-8ef4-bb549d07f51c"/>
+    <managerType typeId="f9e2e884-982c-483f-aad2-4d3e914de469" valueTypeId="a3c63488-f24a-4f59-a3aa-c3166a7c93b1"/>
+  </producedTypes>
+  <name>СтандартыНаименованияПроектныхФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стандарты наименования проектных файлов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтандартыНаименованияПроектныхФайлов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СтандартыНаименованияПроектныхФайлов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СтандартыНаименованияПроектныхФайлов.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="9dbff5dc-b071-47fc-8e40-905824e5c1a9">
+    <name>ФорматНазванияФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формат названия файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="0505a543-5f79-46c5-909f-e082727785dd">
+    <producedTypes>
+      <objectType typeId="e40328f1-988b-4a52-8952-72505de8937e" valueTypeId="adb04b69-c09b-457a-a84b-bbd542c3aa7a"/>
+      <rowType typeId="749511f3-fa59-4890-80ca-b7004a51e78d" valueTypeId="0c79176d-f058-494c-aaff-49edd39e1176"/>
+    </producedTypes>
+    <name>БлокиНазванияФайлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Блоки названия файлов</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="470d18af-e15b-4ab3-ad65-2909bd7afec6">
+      <name>БлокНазвания</name>
+      <synonym>
+        <key>ru</key>
+        <value>Блок названия</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.БлокиНазванийПроектныхФайлов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="2b116fae-f3dd-4729-88ef-0121a3bf6aa6">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

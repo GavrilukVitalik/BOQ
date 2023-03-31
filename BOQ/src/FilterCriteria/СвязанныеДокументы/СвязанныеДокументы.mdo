@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e846b88f-e818-4a58-81b1-15795471252d">
+  <producedTypes>
+    <listType typeId="ae61cc04-4433-436c-b2b4-2d5bc29e1160" valueTypeId="98c0f64e-b876-4920-afaa-9810aa2762ad"/>
+    <managerType typeId="ebb041ec-7ea2-4cf0-a2e6-fdfa97fbcd5f" valueTypeId="2eada994-3b05-4daf-99d0-45f3ce122261"/>
+  </producedTypes>
+  <name>СвязанныеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связанные документы</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.ПроектнаяДокументацияНаИзделие</types>
+    <types>DocumentRef.ВедомостиОбъемов</types>
+    <types>DocumentRef</types>
+    <types>CatalogRef</types>
+  </type>
+  <content>Document.ВедомостиОбъемов.Attribute.ПроектнаяДокументацияНаИзделие</content>
+  <defaultForm>FilterCriterion.СвязанныеДокументы.Form.Список</defaultForm>
+  <forms uuid="97ce05c7-cecb-4f58-bce7-ea4048f7df04">
+    <name>Список</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:FilterCriterion>

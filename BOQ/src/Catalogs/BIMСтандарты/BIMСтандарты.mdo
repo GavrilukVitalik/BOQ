@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e44586d-913f-41af-bde5-0f87afa88abf">
+  <producedTypes>
+    <objectType typeId="1cd21559-6776-4cd5-89a3-8de1e5ef6624" valueTypeId="0eddd951-8f7b-4b20-a8ac-6cc731db2cff"/>
+    <refType typeId="187ecee3-b34d-4717-a5e8-6dc0d16f6232" valueTypeId="2f8bab26-f3ba-4b63-8256-020c3db4b97f"/>
+    <selectionType typeId="c18cc2cc-6577-40e9-ac7f-20261c92a3f5" valueTypeId="4e6336bd-4503-4e27-bc6a-178fb6d308b6"/>
+    <listType typeId="60b9586d-0706-4b1e-ace1-54ca841074ad" valueTypeId="eb484650-392c-4ccc-b125-50263e410a58"/>
+    <managerType typeId="8d5a9c5b-0a11-41b6-9f90-e37ff1ff0223" valueTypeId="fec1fcd8-437c-4ce2-804a-9cc587694407"/>
+  </producedTypes>
+  <name>BIMСтандарты</name>
+  <synonym>
+    <key>ru</key>
+    <value>BIM-стандарты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.BIMСтандарты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.BIMСтандарты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.BIMСтандарты.Form.Элемент</defaultObjectForm>
+  <attributes uuid="4490e880-f99d-4ade-b3f8-4174a569f5a2">
+    <name>СтандартНаименованияПроектныхФайлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандарт наименования проектных файлов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтандартыНаименованияПроектныхФайлов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9990ae41-a6e3-4f6a-ab95-fd1a1e7fe9bc">
+    <name>СтандартПараметризацииЭлементов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандарт параметризации элементов</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтандартыПараметризацииЭлементов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="6f4e7aed-b01b-46d4-ae08-9d1aba158233">
+    <name>Элемент</name>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

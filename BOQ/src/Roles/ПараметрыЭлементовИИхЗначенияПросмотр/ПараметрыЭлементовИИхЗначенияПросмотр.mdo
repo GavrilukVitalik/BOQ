@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56938dcd-c83d-4136-b424-594d6f027db7">
+  <name>ПараметрыЭлементовИИхЗначенияПросмотр</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочник &quot;Параметры элементов и их значения&quot; (просмотр)</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5bbdfa8c-da08-46e7-83f3-e6dd5ca3094c">
+  <name>BIMСтандартыПросмотр</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочник &quot;BIM-стандарты&quot; (просмотр)</value>
+  </synonym>
+</mdclass:Role>

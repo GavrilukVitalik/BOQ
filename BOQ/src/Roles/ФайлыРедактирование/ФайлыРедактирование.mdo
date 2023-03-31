@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e638cce5-6dc4-4119-94cc-97def655a0ca">
+  <name>ФайлыРедактирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактирование&quot;Прикрепленные файлы&quot;</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e9e0f29-2ca9-4f61-add3-debab1a825e3">
+  <producedTypes>
+    <objectType typeId="a8d6e9ad-740e-4216-8fbb-975979e2e6af" valueTypeId="f17a9943-2165-4fc4-839e-57e87066098c"/>
+    <managerType typeId="492f2886-1b7a-40a3-9617-26ab9bac3cb5" valueTypeId="b7117bdd-40cf-4197-897c-ddaf0a78a631"/>
+  </producedTypes>
+  <name>ИзменитьПароль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменить пароль</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <forms uuid="9deaa321-7970-4630-ad8e-0c7bf173fb35">
+    <name>ТекущийПароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущий пароль</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5c6579f5-0abd-4c5a-803f-e56e3359cc91">
+    <name>ВводПароля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод пароля</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="ccf5aeb8-c5bd-476a-aa9b-965c627403d3">
+    <name>ИзменитьПароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменить пароль</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>PictureAndText</representation>
+    <shortcut>Ctrl+Shift+F10</shortcut>
+  </commands>
+</mdclass:DataProcessor>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c364655b-b3d3-4b04-90bb-ea05e04e142a">
+  <name>BIMСтандарты</name>
+  <synonym>
+    <key>ru</key>
+    <value>BIM-стандарты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.BIMСтандарты</content>
+  <content>Catalog.БлокиНазванийПроектныхФайлов</content>
+  <content>Catalog.ПараметрыЭлементовИИхЗначения</content>
+  <content>Catalog.СоответствияЕдиницИзмеренияВBIMМоделях</content>
+  <content>Catalog.СтандартыНаименованияПроектныхФайлов</content>
+  <content>Catalog.СтандартыПараметризацииЭлементов</content>
+  <content>Role.BIMСтандартыПросмотр</content>
+  <content>Role.BIMСтандартыРедактирование</content>
+  <content>Role.БлокиНазванийПроектныхФайловРедактирование</content>
+  <content>Role.БлокиНазванийПроектныхФайловПросмотр</content>
+  <content>Role.ПараметрыЭлементовИИхЗначенияРедактирование</content>
+  <content>Role.ПараметрыЭлементовИИхЗначенияПросмотр</content>
+  <content>Role.СоответствияЕдиницИзмеренияВBIMМоделяхПросмотр</content>
+  <content>Role.СоответствияЕдиницИзмеренияВBIMМоделяхРедактирование</content>
+  <content>Role.СтандартыНаименованияПроектныхФайловПросмотр</content>
+  <content>Role.СтандартыНаименованияПроектныхФайловРедактирование</content>
+  <content>Role.СтандартыПараметризацииЭлементовПросмотр</content>
+  <content>Role.СтандартыПараметризацииЭлементовРедактирование</content>
+  <parentSubsystem>Subsystem.ТехническийСпециалист</parentSubsystem>
+</mdclass:Subsystem>

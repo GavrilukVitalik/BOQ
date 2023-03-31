@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f18405de-1f99-424c-942c-99e35dc4153c">
+  <name>ДополнительныеОтчетыИОбработкиРедактирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочник &quot;Отчеты и обработки&quot; (редактирование)</value>
+  </synonym>
+</mdclass:Role>
