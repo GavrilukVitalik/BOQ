@@ -105,6 +105,8 @@
   <sessionParameters>SessionParameter.КодЯзыка</sessionParameters>
   <roles>Role.BIMСтандартыПросмотр</roles>
   <roles>Role.BIMСтандартыРедактирование</roles>
+  <roles>Role.BOQPostgresПросмотр</roles>
+  <roles>Role.BOQPostgresРедактирование</roles>
   <roles>Role.БазовыеПрава</roles>
   <roles>Role.БлокиНазванийПроектныхФайловПросмотр</roles>
   <roles>Role.БлокиНазванийПроектныхФайловРедактирование</roles>
@@ -128,7 +130,10 @@
   <roles>Role.МобильныйКлиент</roles>
   <roles>Role.ПараметрыЭлементовИИхЗначенияПросмотр</roles>
   <roles>Role.ПараметрыЭлементовИИхЗначенияРедактирование</roles>
+  <roles>Role.ПодключенияВИДПросмотр</roles>
+  <roles>Role.ПодключенияВИДРедактирование</roles>
   <roles>Role.ПодсистемаАдминистрирование</roles>
+  <roles>Role.ПодсистемаВнешниеИсточникиДанных</roles>
   <roles>Role.ПодсистемаЗаказчик</roles>
   <roles>Role.ПодсистемаПроектирование</roles>
   <roles>Role.ПодсистемаПроизводство</roles>
@@ -167,10 +172,6 @@
   <roles>Role.ФайлыРедактирование</roles>
   <roles>Role.ФизическиеЛицаПросмотр</roles>
   <roles>Role.ФизическиеЛицаРедактирование</roles>
-  <roles>Role.ПодключенияВИДПросмотр</roles>
-  <roles>Role.ПодключенияВИДРедактирование</roles>
-  <roles>Role.BOQPostgresПросмотр</roles>
-  <roles>Role.BOQPostgresРедактирование</roles>
   <commonTemplates>CommonTemplate.СтруктураПодчиненности</commonTemplates>
   <filterCriteria>FilterCriterion.СвязанныеДокументы</filterCriteria>
   <commonModules>CommonModule.ДоступСервер</commonModules>
@@ -203,6 +204,7 @@
   <catalogs>Catalog.Изделия</catalogs>
   <catalogs>Catalog.КомплектыПравилАнализаBIMМоделей</catalogs>
   <catalogs>Catalog.ПараметрыЭлементовИИхЗначения</catalogs>
+  <catalogs>Catalog.ПодключенияВИД</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.ПравилаАнализаBIMМоделей</catalogs>
   <catalogs>Catalog.ПроектныеМатериалыИИзделия</catalogs>
@@ -217,7 +219,6 @@
   <catalogs>Catalog.ТипыИзделий</catalogs>
   <catalogs>Catalog.УчетныеЗаписиBIM</catalogs>
   <catalogs>Catalog.ФизическиеЛица</catalogs>
-  <catalogs>Catalog.ПодключенияВИД</catalogs>
   <documents>Document.ВедомостиОбъемов</documents>
   <documents>Document.ПроектнаяДокументацияНаИзделие</documents>
   <enums>Enum.ВидПодразделения</enums>
