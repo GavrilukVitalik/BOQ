@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c593344d-bbd0-4550-a1d8-ffe0b6b6e05f">
+  <producedTypes>
+    <refType typeId="e48cb8e2-147b-428c-8a17-73cd59bc252b" valueTypeId="79f26f39-9c36-416f-9ae2-5189ff1ea456"/>
+    <listType typeId="3565de6f-f217-417c-be75-19ded94312fd" valueTypeId="1bdf7013-a94d-43d1-974b-79eafc50a894"/>
+    <managerType typeId="8f3fcb00-ab79-4896-960c-9207ffbec837" valueTypeId="d7907173-6883-4b3a-a786-d623669b5750"/>
+  </producedTypes>
+  <name>ТипыСУБД</name>
+  <synonym>
+    <key>en</key>
+    <value>Types of DBMS</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Типы СУБД</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cb021f6a-14f9-424a-a42c-312f2a5a9a38">
+    <name>IBMDB2</name>
+    <synonym>
+      <key>en</key>
+      <value>IBM DB2</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>IBM DB2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="daeb6cb2-d06b-41f5-8e09-56f9353da857">
+    <name>MSSQLServer</name>
+    <synonym>
+      <key>en</key>
+      <value>MS SQL Server</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>MS SQL Server</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d1381a45-c620-43c1-88b7-083c84c203e3">
+    <name>MySQL</name>
+    <synonym>
+      <key>en</key>
+      <value>MySQL</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>MySQL</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6688912d-e279-4fd4-ba81-a014dd1bd6fb">
+    <name>OracleDatabase</name>
+    <synonym>
+      <key>en</key>
+      <value>Oracle database</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Oracle database</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4af0cf37-4cc7-4ea2-bf14-df9dfea6fb2f">
+    <name>PostgreSQL</name>
+    <synonym>
+      <key>en</key>
+      <value>Postgre SQL</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Postgre SQL</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aaa75483-786b-4852-9ed3-5f97a0fb4bd9">
+    <name>Прочее</name>
+    <synonym>
+      <key>en</key>
+      <value>Other</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

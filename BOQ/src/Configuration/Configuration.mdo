@@ -56,6 +56,7 @@
   <subsystems>Subsystem.Проектирование</subsystems>
   <subsystems>Subsystem.Производство</subsystems>
   <subsystems>Subsystem.Заказчик</subsystems>
+  <subsystems>Subsystem.ВнешниеИсточникиДанных</subsystems>
   <styles>Style.СтильКонфигурации</styles>
   <commonPictures>CommonPicture.AutoDesk</commonPictures>
   <commonPictures>CommonPicture.BMP</commonPictures>
@@ -99,6 +100,7 @@
   <commonPictures>CommonPicture.Стоп</commonPictures>
   <commonPictures>CommonPicture.Файлы</commonPictures>
   <commonPictures>CommonPicture.Файлы48</commonPictures>
+  <commonPictures>CommonPicture.ВнешниеИсточникиДанных</commonPictures>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <sessionParameters>SessionParameter.КодЯзыка</sessionParameters>
   <roles>Role.BIMСтандартыПросмотр</roles>
@@ -165,6 +167,10 @@
   <roles>Role.ФайлыРедактирование</roles>
   <roles>Role.ФизическиеЛицаПросмотр</roles>
   <roles>Role.ФизическиеЛицаРедактирование</roles>
+  <roles>Role.ПодключенияВИДПросмотр</roles>
+  <roles>Role.ПодключенияВИДРедактирование</roles>
+  <roles>Role.BOQPostgresПросмотр</roles>
+  <roles>Role.BOQPostgresРедактирование</roles>
   <commonTemplates>CommonTemplate.СтруктураПодчиненности</commonTemplates>
   <filterCriteria>FilterCriterion.СвязанныеДокументы</filterCriteria>
   <commonModules>CommonModule.ДоступСервер</commonModules>
@@ -175,6 +181,7 @@
   <commonModules>CommonModule.Преобразования</commonModules>
   <commonModules>CommonModule.РаботаСФайлами</commonModules>
   <commonModules>CommonModule.Сообщения</commonModules>
+  <commonModules>CommonModule.ВИД</commonModules>
   <commonAttributes>CommonAttribute.Автор</commonAttributes>
   <commonAttributes>CommonAttribute.КомментарийEN</commonAttributes>
   <commonAttributes>CommonAttribute.НаименованиеEN</commonAttributes>
@@ -210,6 +217,7 @@
   <catalogs>Catalog.ТипыИзделий</catalogs>
   <catalogs>Catalog.УчетныеЗаписиBIM</catalogs>
   <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <catalogs>Catalog.ПодключенияВИД</catalogs>
   <documents>Document.ВедомостиОбъемов</documents>
   <documents>Document.ПроектнаяДокументацияНаИзделие</documents>
   <enums>Enum.ВидПодразделения</enums>
@@ -222,6 +230,7 @@
   <enums>Enum.ТипДанныхВПараметрахBIM</enums>
   <enums>Enum.ТипыЕдиницИзмерения</enums>
   <enums>Enum.ТипыКонтактнойИнформации</enums>
+  <enums>Enum.ТипыСУБД</enums>
   <dataProcessors>DataProcessor.WorkWithTablesMPP</dataProcessors>
   <dataProcessors>DataProcessor.ИзменитьПароль</dataProcessors>
   <dataProcessors>DataProcessor.КонсольЗаданий</dataProcessors>
@@ -231,4 +240,5 @@
   <informationRegisters>InformationRegister.ПраваНаИзменениеДокументов</informationRegisters>
   <informationRegisters>InformationRegister.Файлы</informationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.НастройкиПользователей</chartsOfCharacteristicTypes>
+  <externalDataSources>ExternalDataSource.BOQPostgres</externalDataSources>
 </mdclass:Configuration>

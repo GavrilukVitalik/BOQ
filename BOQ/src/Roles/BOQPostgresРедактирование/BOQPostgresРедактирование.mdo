@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b35ef92-44cf-4c74-a2ab-e1177ccbd217">
+  <name>BOQPostgresРедактирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактирование внешней базы данных моделей</value>
+  </synonym>
+</mdclass:Role>
