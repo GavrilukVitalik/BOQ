@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f4623e5-1d45-4716-a64a-64850fb51209">
+  <name>ПодсистемаВнешниеИсточникиДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема &quot;Внешние источники данных&quot;</value>
+  </synonym>
+</mdclass:Role>

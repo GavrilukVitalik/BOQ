@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1587225b-7a92-4c67-8a14-73c780e34ade">
+  <name>BOQPostgresПросмотр</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр внешней базы данных моделей</value>
+  </synonym>
+</mdclass:Role>
