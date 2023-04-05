@@ -101,6 +101,7 @@
   <commonPictures>CommonPicture.Файлы</commonPictures>
   <commonPictures>CommonPicture.Файлы48</commonPictures>
   <commonPictures>CommonPicture.ВнешниеИсточникиДанных</commonPictures>
+  <commonPictures>CommonPicture.ВыгрузитьНаДиск</commonPictures>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <sessionParameters>SessionParameter.КодЯзыка</sessionParameters>
   <roles>Role.BIMСтандартыПросмотр</roles>
