@@ -1018,7 +1018,6 @@
           <items xsi:type="form:Button">
             <name>ПроверитьСтатусОбработки</name>
             <id>72</id>
-            <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
