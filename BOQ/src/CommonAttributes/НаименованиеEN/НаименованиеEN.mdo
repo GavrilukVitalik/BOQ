@@ -2,20 +2,20 @@
 <mdclass:CommonAttribute xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91275cc4-20dc-451d-83f6-454dd15dc02c">
   <name>НаименованиеEN</name>
   <synonym>
-    <key>ru</key>
-    <value>Наименование (en)</value>
-  </synonym>
-  <synonym>
-    <key>uk</key>
-    <value>Найменування (en)</value>
+    <key>fr</key>
+    <value>Nom (en)</value>
   </synonym>
   <synonym>
     <key>en</key>
     <value>Description (en)</value>
   </synonym>
   <synonym>
-    <key>fr</key>
-    <value>Nom (en)</value>
+    <key>ru</key>
+    <value>Наименование (en)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Найменування (en)</value>
   </synonym>
   <type>
     <types>String</types>
@@ -107,10 +107,6 @@
   <content>
     <metadata>Catalog.ВидыКонтактнойИнформации</metadata>
     <use>Use</use>
-  </content>
-  <content>
-    <metadata>ExternalDataSource.BOQPostgres</metadata>
-    <use>DontUse</use>
   </content>
   <autoUse>DontUse</autoUse>
   <dataSeparation>DontUse</dataSeparation>

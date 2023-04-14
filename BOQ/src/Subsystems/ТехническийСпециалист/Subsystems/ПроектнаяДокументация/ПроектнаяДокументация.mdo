@@ -14,5 +14,6 @@
   <content>Role.СтадииПроектнойДокументацииПросмотр</content>
   <content>Role.СтадииПроектнойДокументацииРедактирование</content>
   <content>Catalog.УчетныеЗаписиBIM</content>
+  <content>InformationRegister.ОчередиОбработкиДокументации</content>
   <parentSubsystem>Subsystem.ТехническийСпециалист</parentSubsystem>
 </mdclass:Subsystem>

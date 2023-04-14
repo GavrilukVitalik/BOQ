@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataSource xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59b6e61e-83b4-4ebf-96c3-1b46f5ed2ce8">
+  <producedTypes>
+    <managerType typeId="ee59cdcf-f014-4b57-842d-f2cbeee9688a" valueTypeId="07b1d3bc-5848-4eef-81fe-c1e38489576e"/>
+    <tablesManagerType typeId="a73377bf-97f2-4b4e-a374-c4751088526e" valueTypeId="ff3fa2e9-1615-4704-aeb7-93cf12ed3574"/>
+    <cubesManagerType typeId="09a2e02b-0f6a-489a-9696-a1cc0ecb91c3" valueTypeId="6fdafae2-f3f0-4e75-9457-1cf375273fad"/>
+  </producedTypes>
+  <name>BIMPostgres</name>
+  <synonym>
+    <key>ru</key>
+    <value>BIM: внешняя БД</value>
+  </synonym>
+  <tables>ExternalDataSource.BIMPostgres.Table.details</tables>
+  <tables>ExternalDataSource.BIMPostgres.Table.models</tables>
+  <tables>ExternalDataSource.BIMPostgres.Table.objects</tables>
+  <tables>ExternalDataSource.BIMPostgres.Table.plannings</tables>
+  <tables>ExternalDataSource.BIMPostgres.Table.properties</tables>
+  <tables>ExternalDataSource.BIMPostgres.Table.requires_separation</tables>
+  <tables>ExternalDataSource.BIMPostgres.Table.untouchable</tables>
+</mdclass:ExternalDataSource>

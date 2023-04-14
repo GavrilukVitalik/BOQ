@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="44450ecc-7722-412b-86b1-4bf57e0f741b">
+  <producedTypes>
+    <objectType typeId="3817174e-1ecb-43d6-bde7-16b4aed7a281" valueTypeId="07dc66a4-f691-4594-9614-977b4042b90b"/>
+    <refType typeId="4677ca46-d887-488d-8f2a-10b603f23c98" valueTypeId="783e1a2e-fa0f-4d32-a256-d05af004756c"/>
+    <selectionType typeId="c1ae7155-0d64-4996-b822-875b30474b22" valueTypeId="1e53dff9-8a91-4e6f-857c-bf7f1d67deec"/>
+    <listType typeId="04956a5f-e462-40af-b499-7e48315c787a" valueTypeId="52959b67-20ce-4a87-ac5f-6265d54bd07f"/>
+    <managerType typeId="89508490-fb07-4268-8697-54bdb7a2aaa9" valueTypeId="b63df81a-9b9f-460f-bbe8-1dc3b1cc4ce4"/>
+  </producedTypes>
+  <name>ПодключенияВншИстДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подключения к внешним источникам данных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПодключенияВншИстДанных.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПодключенияВншИстДанных.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Подключение к внешн. источникам данных</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="5a2c2c4e-35c3-4161-9ba6-9cb7384fdbaf">
+      <name>BIMBOQПоУмолчанию</name>
+      <description>BIM: BOQ по умолчанию</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ПодключенияВншИстДанных.Form.Элемент</defaultObjectForm>
+  <attributes uuid="6e9341c8-7531-47fd-b493-afec1e1d1e60">
+    <name>АутентификацияОС</name>
+    <synonym>
+      <key>en</key>
+      <value>Authentication OS</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Аутентификация ОС</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ea6167b4-17af-4456-958b-93a2b3a248bf">
+    <name>ИмяВнешнегоИсточника</name>
+    <synonym>
+      <key>en</key>
+      <value>Name of external source</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Имя внешнего источника</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0ae0090d-ff01-4cd2-942d-c2975af708db">
+    <name>ИмяВнешнейБД</name>
+    <synonym>
+      <key>en</key>
+      <value>External database name</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Имя внешней БД</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cc3a2cc4-160d-4dea-bd1a-40dbd8c35c0b">
+    <name>Логин</name>
+    <synonym>
+      <key>en</key>
+      <value>Login</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Логин</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c8b710e0-a85f-4fa4-9605-9243eaef189f">
+    <name>Пароль</name>
+    <synonym>
+      <key>en</key>
+      <value>Password</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <passwordMode>true</passwordMode>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f740a823-a49b-4a42-b80b-a89b77b0a890">
+    <name>Сервер</name>
+    <synonym>
+      <key>en</key>
+      <value>Server</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="60e12621-05e2-4e3e-bc36-27d359aae73b">
+    <name>СтрокаПодключения</name>
+    <synonym>
+      <key>en</key>
+      <value>Connection string</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Строка подключения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="97edef44-67cf-4f5d-9134-c771b60f00d5">
+    <name>ТипСУБД</name>
+    <synonym>
+      <key>en</key>
+      <value>Type DBMS</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип СУБД</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыСУБД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="16c03482-5d4f-4a1c-9fcc-cd1a14367962">
+    <name>Элемент</name>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="3d85602a-a6ce-4113-8f7c-133d8b41e9e4">
+    <name>ПодключитьВИД</name>
+    <synonym>
+      <key>en</key>
+      <value>Connect</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Подключить</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.ПодключенияВншИстДанных</types>
+    </commandParameterType>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.ExternalDataSource</picture>
+    </picture>
+  </commands>
+</mdclass:Catalog>

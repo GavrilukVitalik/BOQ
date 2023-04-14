@@ -7,6 +7,6 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Catalog.ПодключенияВИД</content>
+  <content>Catalog.ПодключенияВншИстДанных</content>
   <parentSubsystem>Subsystem.ВнешниеИсточникиДанных</parentSubsystem>
 </mdclass:Subsystem>
