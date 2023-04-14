@@ -24,7 +24,7 @@
     </synonym>
     <synonym>
       <key>ru</key>
-      <value>IBM DB2</value>
+      <value>IBMDB2</value>
     </synonym>
   </enumValues>
   <enumValues uuid="daeb6cb2-d06b-41f5-8e09-56f9353da857">
@@ -35,7 +35,7 @@
     </synonym>
     <synonym>
       <key>ru</key>
-      <value>MS SQL Server</value>
+      <value>MSSQLServer</value>
     </synonym>
   </enumValues>
   <enumValues uuid="d1381a45-c620-43c1-88b7-083c84c203e3">
@@ -57,7 +57,7 @@
     </synonym>
     <synonym>
       <key>ru</key>
-      <value>Oracle database</value>
+      <value>OracleDatabase</value>
     </synonym>
   </enumValues>
   <enumValues uuid="4af0cf37-4cc7-4ea2-bf14-df9dfea6fb2f">
@@ -68,7 +68,7 @@
     </synonym>
     <synonym>
       <key>ru</key>
-      <value>Postgre SQL</value>
+      <value>PostgreSQL</value>
     </synonym>
   </enumValues>
   <enumValues uuid="aaa75483-786b-4852-9ed3-5f97a0fb4bd9">

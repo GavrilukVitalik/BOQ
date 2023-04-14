@@ -11,4 +11,5 @@
     <picture>CommonPicture.ВнешниеИсточникиДанных</picture>
   </picture>
   <subsystems>Настройки</subsystems>
+  <subsystems>BIMВнешняяБД</subsystems>
 </mdclass:Subsystem>

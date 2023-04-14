@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0354f56b-93f5-46b4-a1a4-81d16a9e1d59">
+  <name>ФТП</name>
+  <synonym>
+    <key>ru</key>
+    <value>ФТП</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

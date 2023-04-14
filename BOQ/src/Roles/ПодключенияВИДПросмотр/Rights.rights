@@ -4,9 +4,9 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>Catalog.ПодключенияВИД</name>
+		<name>Catalog.ПодключенияВншИстДанных</name>
 		<right>
-			<name>InputByString</name>
+			<name>Read</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -14,7 +14,7 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>Read</name>
+			<name>InputByString</name>
 			<value>true</value>
 		</right>
 	</object>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf9974f1-7992-4c3f-b837-f4fca6f3fcb1">
+  <producedTypes>
+    <refType typeId="6ea1de00-2d21-407b-abe9-b04ad3d4d34d" valueTypeId="055d64a7-4ad7-41bc-8d8b-2afc94b34b84"/>
+    <listType typeId="982a31e9-7f37-4799-955c-3a3b2c91ff26" valueTypeId="b7f9d96b-9f6e-42cc-becd-c0b7c82baed4"/>
+    <objectType typeId="849039e8-6729-45d8-ab02-f30047d1ae4f" valueTypeId="d912495e-d752-4f74-b613-0d33dcfd605b"/>
+    <managerType typeId="19ed1357-2820-4d16-8258-95053db249a4" valueTypeId="78e9ea47-2d9f-4642-96a2-5c9edb8f059e"/>
+    <recordManagerType typeId="5ea20773-ef53-4990-8f49-60459b07ff37" valueTypeId="234b5d5d-709c-493d-82f0-09fabc9fd877"/>
+    <recordSetType typeId="d9fa8cbe-57ad-4d55-9120-9ac3c744ad68" valueTypeId="2c9602d4-e6ae-47c3-9e3d-11f73bf0a7db"/>
+    <recordType typeId="18232f24-2024-4eb9-bde6-fcd012677309" valueTypeId="bff55575-f100-473e-8835-c2ff18a7fa6f"/>
+    <recordKeyType typeId="72b5b33b-0dd4-4fb9-88ed-dde986632577" valueTypeId="8f5bcc9b-d130-49f1-9aa4-45999e0e8fcb"/>
+  </producedTypes>
+  <name>untouchable</name>
+  <synonym>
+    <key>ru</key>
+    <value>Необрабатываемые свойства</value>
+  </synonym>
+  <parentDataSource>ExternalDataSource.BIMPostgres</parentDataSource>
+  <nameInDataSource>factory.public.untouchable</nameInDataSource>
+  <tableDataType>NonobjectData</tableDataType>
+  <keyFields>ExternalDataSource.BIMPostgres.Table.untouchable.Field.id</keyFields>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>ExternalDataSource.BIMPostgres.Table.untouchable.Form.Список</defaultListForm>
+  <editType>InDialog</editType>
+  <tableFields uuid="53fe1d7e-e9ca-4ce8-8f37-0c92e0ad3f71">
+    <name>id</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>id</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="4b929880-8e1b-49c5-8d81-ccc3bb415233">
+    <name>name</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>name</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <forms uuid="25185475-2dd6-4db5-bcae-3690802e115f">
+    <name>Список</name>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Table>

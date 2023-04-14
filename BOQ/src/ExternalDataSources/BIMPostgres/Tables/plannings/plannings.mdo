@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7bf9352d-e839-4f3e-b27f-02b0f083e2b4">
+  <producedTypes>
+    <refType typeId="e7e5e662-0e69-4bef-bf48-ebe272154054" valueTypeId="ff7bbc6d-4858-4293-820a-2ac3b55d5d85"/>
+    <listType typeId="1e5824c2-93d7-4dd3-b8d6-3118363c0c48" valueTypeId="d7d4e42b-7849-4bc8-b914-079e8cab89f1"/>
+    <objectType typeId="02b8a2a8-2046-429d-813b-2848949a4bef" valueTypeId="9a398a98-3d0c-4076-81eb-3a204cf197cd"/>
+    <managerType typeId="bfb2726b-6468-4f75-a015-c3cf848986fb" valueTypeId="03a68128-5098-498d-9177-f17ef477664c"/>
+    <recordManagerType typeId="36b8a34b-4e71-43d8-a96e-958f54a664bc" valueTypeId="2eb591c3-923b-4cce-aef7-d2192494c25e"/>
+    <recordSetType typeId="dbeb235d-2796-4bcc-b50e-d10c1c90897a" valueTypeId="3f0175df-2ef0-4a43-8b84-36756bc037a5"/>
+    <recordType typeId="b366f1bf-3f76-4e12-a04e-362112db7d98" valueTypeId="6d2ad47a-d31c-4cad-b59f-d40772372ddd"/>
+    <recordKeyType typeId="4c73d0ff-d81f-4683-a1ac-c60133d11989" valueTypeId="b1392720-bd29-4eb6-b0e6-14564e0cc072"/>
+  </producedTypes>
+  <name>plannings</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды моделей</value>
+  </synonym>
+  <parentDataSource>ExternalDataSource.BIMPostgres</parentDataSource>
+  <nameInDataSource>factory.public.plannings</nameInDataSource>
+  <tableDataType>NonobjectData</tableDataType>
+  <keyFields>ExternalDataSource.BIMPostgres.Table.plannings.Field.id</keyFields>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>ExternalDataSource.BIMPostgres.Table.plannings.Form.Список</defaultListForm>
+  <editType>InDialog</editType>
+  <tableFields uuid="90fced7b-be6e-4484-a4fb-b4cca0d4d198">
+    <name>id</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>id</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="27d621b9-14b1-42ee-be0b-eab2eace8bc0">
+    <name>model_id</name>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <nameInDataSource>model_id</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="e59f0ef5-3ca0-4c2e-aefd-308bbe3b1ed3">
+    <name>name</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>name</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="faac6eb0-bae1-4f20-bfef-ebfe6344293c">
+    <name>guid</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>guid</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="2986f5d1-0aaf-4ff6-9727-39e0536f3de4">
+    <name>role</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>role</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <forms uuid="be6b0983-3d1d-4f02-894c-e9e07e0fbadd">
+    <name>Список</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Table>

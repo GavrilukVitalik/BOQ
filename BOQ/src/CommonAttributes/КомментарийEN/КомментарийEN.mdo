@@ -2,20 +2,20 @@
 <mdclass:CommonAttribute xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94213014-b33e-4968-89d5-3ec7369fb433">
   <name>КомментарийEN</name>
   <synonym>
-    <key>ru</key>
-    <value>Комментарий (en)</value>
-  </synonym>
-  <synonym>
-    <key>uk</key>
-    <value>Коментар (en)</value>
+    <key>fr</key>
+    <value>Commentaire (en)</value>
   </synonym>
   <synonym>
     <key>en</key>
     <value>Comment (en)</value>
   </synonym>
   <synonym>
-    <key>fr</key>
-    <value>Commentaire (en)</value>
+    <key>ru</key>
+    <value>Комментарий (en)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Коментар (en)</value>
   </synonym>
   <type>
     <types>String</types>
@@ -32,10 +32,6 @@
   <content>
     <metadata>Catalog.ГруппыПользователей</metadata>
     <use>Use</use>
-  </content>
-  <content>
-    <metadata>ExternalDataSource.BOQPostgres</metadata>
-    <use>DontUse</use>
   </content>
   <autoUse>DontUse</autoUse>
   <dataSeparation>DontUse</dataSeparation>

@@ -67,6 +67,8 @@
   <commonPictures>CommonPicture.PNG</commonPictures>
   <commonPictures>CommonPicture.TIFF</commonPictures>
   <commonPictures>CommonPicture.XML</commonPictures>
+  <commonPictures>CommonPicture.ВнешниеИсточникиДанных</commonPictures>
+  <commonPictures>CommonPicture.ВыгрузитьНаДиск</commonPictures>
   <commonPictures>CommonPicture.ДокументЗаписанКоннекторВерх</commonPictures>
   <commonPictures>CommonPicture.ДокументЗаписанКоннекторВерхНиз</commonPictures>
   <commonPictures>CommonPicture.ДокументЗаписанКоннекторЛево</commonPictures>
@@ -100,10 +102,8 @@
   <commonPictures>CommonPicture.Стоп</commonPictures>
   <commonPictures>CommonPicture.Файлы</commonPictures>
   <commonPictures>CommonPicture.Файлы48</commonPictures>
-  <commonPictures>CommonPicture.ВнешниеИсточникиДанных</commonPictures>
-  <commonPictures>CommonPicture.ВыгрузитьНаДиск</commonPictures>
-  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <sessionParameters>SessionParameter.КодЯзыка</sessionParameters>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.BIMСтандартыПросмотр</roles>
   <roles>Role.BIMСтандартыРедактирование</roles>
   <roles>Role.BOQPostgresПросмотр</roles>
@@ -177,13 +177,14 @@
   <filterCriteria>FilterCriterion.СвязанныеДокументы</filterCriteria>
   <commonModules>CommonModule.ДоступСервер</commonModules>
   <commonModules>CommonModule.Запросы</commonModules>
+  <commonModules>CommonModule.МоделиBIM</commonModules>
   <commonModules>CommonModule.ОбщийСервер</commonModules>
   <commonModules>CommonModule.Подписки</commonModules>
   <commonModules>CommonModule.ПраваНаИзменения</commonModules>
   <commonModules>CommonModule.Преобразования</commonModules>
   <commonModules>CommonModule.РаботаСФайлами</commonModules>
   <commonModules>CommonModule.Сообщения</commonModules>
-  <commonModules>CommonModule.ВИД</commonModules>
+  <commonModules>CommonModule.ФТП</commonModules>
   <commonAttributes>CommonAttribute.Автор</commonAttributes>
   <commonAttributes>CommonAttribute.КомментарийEN</commonAttributes>
   <commonAttributes>CommonAttribute.НаименованиеEN</commonAttributes>
@@ -205,7 +206,7 @@
   <catalogs>Catalog.Изделия</catalogs>
   <catalogs>Catalog.КомплектыПравилАнализаBIMМоделей</catalogs>
   <catalogs>Catalog.ПараметрыЭлементовИИхЗначения</catalogs>
-  <catalogs>Catalog.ПодключенияВИД</catalogs>
+  <catalogs>Catalog.ПодключенияВншИстДанных</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.ПравилаАнализаBIMМоделей</catalogs>
   <catalogs>Catalog.ПроектныеМатериалыИИзделия</catalogs>
@@ -229,6 +230,7 @@
   <enums>Enum.ОбработкаОтчет</enums>
   <enums>Enum.ПолФизическогоЛица</enums>
   <enums>Enum.Роли</enums>
+  <enums>Enum.СтатусыОбработкиДокументации</enums>
   <enums>Enum.ТипДанныхВПараметрахBIM</enums>
   <enums>Enum.ТипыЕдиницИзмерения</enums>
   <enums>Enum.ТипыКонтактнойИнформации</enums>
@@ -239,8 +241,9 @@
   <dataProcessors>DataProcessor.ПросмотрФайлов</dataProcessors>
   <informationRegisters>InformationRegister.ДоступОтчетыИОбработки</informationRegisters>
   <informationRegisters>InformationRegister.НастройкиПользователей</informationRegisters>
+  <informationRegisters>InformationRegister.ОчередиОбработкиДокументации</informationRegisters>
   <informationRegisters>InformationRegister.ПраваНаИзменениеДокументов</informationRegisters>
   <informationRegisters>InformationRegister.Файлы</informationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.НастройкиПользователей</chartsOfCharacteristicTypes>
-  <externalDataSources>ExternalDataSource.BOQPostgres</externalDataSources>
+  <externalDataSources>ExternalDataSource.BIMPostgres</externalDataSources>
 </mdclass:Configuration>
