@@ -1983,10 +1983,6 @@
     <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers>
-    <event>BeforeClose</event>
-    <name>ПередЗакрытием</name>
-  </handlers>
-  <handlers>
     <event>OnCreateAtServer</event>
     <name>OnCreateAtServer</name>
   </handlers>
