@@ -206,4 +206,91 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <tabularSections uuid="9b525294-edaf-491e-adcd-2441fb2311db">
+    <producedTypes>
+      <objectType typeId="08e89cf3-45e3-47f7-93c6-2587eddf3017" valueTypeId="51ae6877-ce68-4ba3-a989-10be028d788e"/>
+      <rowType typeId="d644fb11-cd86-45fb-9f62-eb1f10ff673f" valueTypeId="7011e641-991e-4777-90b7-09d82ab539fa"/>
+    </producedTypes>
+    <name>ЛистыИВиды</name>
+    <synonym>
+      <key>en</key>
+      <value>Листы и 3D-виды</value>
+    </synonym>
+    <attributes uuid="df467b01-3c24-470d-8af2-62175b7107bc">
+      <name>Наименование</name>
+      <synonym>
+        <key>ru</key>
+        <value>Название в модели</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="890642fc-4430-4740-ab3a-b40b7c5c39a1">
+      <name>НаименованиеПользовательское</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пользовательское название</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="89a09cbb-a060-4a74-a5b6-86c755c4dc9d">
+    <producedTypes>
+      <objectType typeId="45ecbc75-30b4-4af2-ac6e-a8959130ae38" valueTypeId="5366b4ea-7220-4405-88f4-1fd420f36a72"/>
+      <rowType typeId="3621be1d-a60b-4eed-8ee7-963ac07975b8" valueTypeId="30e0979b-3fc2-422e-9ec1-8ba9732f2af0"/>
+    </producedTypes>
+    <name>ИзделияПоЛистамВидам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изделия</value>
+    </synonym>
+    <attributes uuid="720f5ca3-204b-49b4-9721-d61321d9d967">
+      <name>ЛистВид</name>
+      <synonym>
+        <key>ru</key>
+        <value>Лист (3D вид)</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ad315791-1bb6-4353-ad96-4e264c2b4a37">
+      <name>Изделие</name>
+      <synonym>
+        <key>ru</key>
+        <value>Изделие</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Изделия</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
 </mdclass:Document>
